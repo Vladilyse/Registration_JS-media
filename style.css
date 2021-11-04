@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.forma{
+    width: 100%;
+    height: 700px;
+    background-color: antiquewhite;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Ceviche One', cursive;
+}
+form{
+    width: 900px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 30px auto;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    -webkit-box-shadow: 5px 7px 15px 10px rgba(0,0,0,0.72); 
+    box-shadow: 5px 7px 15px 10px rgba(0,0,0,0.72);
+}
+.info{
+    width: 350px;
+    height: 330px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 25px;
+    -webkit-box-shadow: 5px 7px 15px 10px rgba(0,0,0,0.72); 
+    box-shadow: 5px 7px 15px 10px rgba(0,0,0,0.72);
+}
+.box_info{
+    width: 350px;
+    height: 300px;
+    /* background-color: rgb(128, 128, 128); */
+    border-radius: 25px;
+    margin-bottom: 50px;
+    
+}
+fieldset{
+    border-radius: 20px;
+    background-color: rgb(128, 128, 128);
+    border: none;
+    -webkit-box-shadow: 5px 7px 15px 10px rgba(0,0,0,0.72); 
+    box-shadow: 5px 7px 15px 10px rgba(0,0,0,0.72);
+}
+legend{
+    margin: auto;
+    font-size: 25px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.user_self{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 20px;
+}
+.user_self img{
+    border-radius: 110%;
+    width: 150px;
+    height: 150px;
+}
+.user_text{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.user_text img{
+    border-radius: 110%;
+    width: 90px;
+    height: 90px;
+}
+.user_text p{
+    font-size: 18px;
+    font-family: 'Irish Grover', cursive;
+}
+.box_info div{
+    width: 300px;
+    margin: 15px auto;
+}
+input{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+input::placeholder{
+    text-align: center;
+    font-size: 20px;
+}
+.button{
+    height: 100px;
+    padding-top: 30px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    margin-left: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    -webkit-box-shadow: 5px 7px 15px 10px rgba(0,0,0,0.72); 
+    box-shadow: 5px 2px 5px 3px rgba(0,0,0,0.72);
+}
+@media screen and (max-width:900px){
+    .forma{
+        height: 550px;
+    }
+    form{
+        width: 700px;
+        height: 400px;
+    }
+    .info{
+        width: 250px;
+        height: 230px;
+        max-width: 100%;
+    }
+    .user_self{
+        height: 60px;
+    }
+    .user_self img{
+        width: 100px;
+        height: 100px;
+    }
+    .user_text p{
+        font-size: 15px;
+        font-family: 'Irish Grover', cursive;
+    }
+    .user_text img{
+        width: 70px;
+        height: 70px;
+    }
+    .box_info{
+        width: 250px;
+        height: 250px;
+        /* background-color: rgb(128, 128, 128); */
+        border-radius: 25px;
+        margin: 0 30px 40px 0;
+        
+    }
+    .box_info div{
+        width: 300px;
+        height: 30px;
+        margin: 15px auto;
+    }
+}
+@media screen and (max-width:700px){
+    .forma{
+        height: 450px;
+    }
+    form{
+        width: 500px;
+        height: 300px;
+    }
+    legend{
+        font-size: 18px;
+    }
+    .info{
+        width: 150px;
+        height: 130px;
+        max-width: 100%;
+    }
+    .user_self{
+        height: 0px;
+    }
+    .user_self img{
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .user_text p{
+        font-size: 11px;
+        font-family: 'Irish Grover', cursive;
+    }
+    .user_text img{
+        width: 35px;
+        height: 35px;
+    }
+    .box_info{
+        width: 150px;
+        height: 150px;
+        /* background-color: rgb(128, 128, 128); */
+        border-radius: 25px;
+        margin: 0 30px 40px 0;
+        
+    }
+    .box_info div{
+        width: 200px;
+        height: 10px;
+        margin: 15px auto;
+    }
+    input{
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 17px;
+        margin: auto;
+    }
+    input::placeholder{
+        text-align: center;
+        font-size: 17px;
+    }
+    .button{
+        height: 70px;
+        padding-top: 10px;
+        display: flex;
+    }
+    button{
+        width: 90px;
+        height: 25px;
+        margin-left: 15px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 15px;
+        -webkit-box-shadow: 5px 7px 15px 10px rgba(0,0,0,0.72); 
+        box-shadow: 5px 2px 5px 3px rgba(0,0,0,0.72);
+    }
+}
+@media screen and (max-width:500px){
+    .forma{
+        height: 350px;
+    }
+    form{
+        width: 400px;
+        height: 200px;
+    }
+    legend{
+        font-size: 16px;
+    }
+    .info{
+        width: 110px;
+        height: 110px;
+        max-width: 100%;
+    }
+    .user_self{
+        height: 0px;
+        margin-top: 10px;
+    }
+    .user_self img{
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        margin-bottom: 0px;
+    }
+    .user_text p{
+        font-size: 9px;
+        font-family: 'Irish Grover', cursive;
+    }
+    .user_text img{
+        width: 25px;
+        height: 25px;
+    }
+    .box_info{
+        width: 120px;
+        height: 150px;
+        /* background-color: rgb(128, 128, 128); */
+        border-radius: 25px;
+        margin: 0 30px 10px 0;
+        
+    }
+    .box_info div{
+        width: 150px;
+        height: 5px;
+        margin: 15px auto;
+    }
+    input{
+        width: 100%;
+        height: 15px;
+        text-align: center;
+        font-size: 12px;
+        margin: auto;
+    }
+    input::placeholder{
+        text-align: center;
+        font-size:14px;
+    }
+    .button{
+        height: 70px;
+        padding-top: 10px;
+        display: flex;
+    }
+    button{
+        width: 70px;
+        height: 20px;
+        margin-left: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 12px;
+        -webkit-box-shadow: 5px 7px 15px 10px rgba(0,0,0,0.72); 
+        box-shadow: 5px 2px 5px 3px rgba(0,0,0,0.72);
+    }
+}
+@media screen and (max-width:400px){
+    .forma{
+        height: 250px;
+
+    }
+    form{
+        width: 300px;
+        height: 170px;
+        margin: 10px auto;
+    }
+    legend{
+        font-size: 12px;
+    }
+    .info{
+        width: 120px;
+        height: 120px;
+        max-width: 100%;
+    }
+    .user_self{
+        height: 0px;
+        margin-top: 5px;
+    }
+    .user_self img{
+        width: 60px;
+        height: 60px;
+    }
+    .user_text{
+        margin-top: 60px;
+    }
+    .user_text p{
+        margin-top: 20px;
+        font-size: 11px;
+        font-family: 'Irish Grover', cursive;
+    }
+    .user_text img{
+        width: 30px;
+        height: 30px;
+    }
+    .box_info{
+        width: 90px;
+        height: 150px;
+        border-radius: 25px;
+        margin: 0 30px 0px 0;
+    }
+    .box_info div{
+        width: 120px;
+        height: 8px;
+        margin: 12px auto;
+    }
+    input{
+        width: 90%;
+        height: 14px;
+        text-align: center;
+        font-size: 10px;
+        margin: auto;
+    }
+    input::placeholder{
+        text-align: center;
+        font-size: 12px;
+    }
+    .button{
+        height: 70px;
+        padding-top: 10px;
+        display: flex;
+    }
+    button{
+        width: 60px;
+        height: 20px;
+        margin-left: 0px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 0 0 0 3px;
+        font-size: 11px;
+        -webkit-box-shadow: 5px 7px 15px 10px rgba(0,0,0,0.72); 
+        box-shadow: 5px 2px 5px 3px rgba(0,0,0,0.72);
+    }
+}
